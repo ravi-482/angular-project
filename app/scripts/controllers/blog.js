@@ -8,10 +8,10 @@
  * Controller of the angularProjectApp
  */
 angular.module('angularProjectApp')
-.controller('MainCtrl', function ($scope, $location) {
-	this.awesomeThings = [
-		'HTML5 Boilerplate',
-		'AngularJS',
-		'Karma'
-	];
-});
+  .controller('BlogCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  });

@@ -8,7 +8,7 @@
  * Controller of the angularProjectApp
  */
 angular.module('angularProjectApp')
-  .controller('ContactCtrl', function () {
+  .controller('CustomizeCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
