@@ -1,0 +1,15 @@
+.header {
+	.navbar {
+		border-radius:0;
+	}
+
+	.navbar-default {
+		border-color: transparent;
+		border-bottom: 1px solid $grey-background-e7e7e7;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover {
+		color: $text-color-555;
+    	background-color: $grey-background-e7e7e7;
+	}
+}
