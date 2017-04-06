@@ -16,7 +16,7 @@ var app = angular.module('angularProjectApp', [
     'ngResource', 
     'ngRoute', 
     'ngSanitize', 
-    'ngTouch', 
-    'angularProjectApp.headerapp',
-    'angularProjectApp.linkurls'
+    'ngTouch',
+    'angularProjectApp.header',
+    'angularProjectApp.linkroutes'
 ]);
