@@ -8,7 +8,7 @@
  * Controller of the angularProjectApp
  */
 angular.module('angularProjectApp')
-.controller('MainCtrl', function ($scope, $location) {
+.controller('MainCtrl', function () {
 	this.awesomeThings = [
 		'HTML5 Boilerplate',
 		'AngularJS',
