@@ -328,7 +328,16 @@ module.exports = function (grunt) {
     // concat: {
     //   dist: {}
     // },
-
+    uglify: {
+      all: {
+        options: {
+          sourcemap: true
+        },
+        files: {
+          'app/dest/all.min.js' : ['app/scripts/**/*.js']
+        }
+      } 
+    },
     imagemin: {
       dist: {
         files: [{

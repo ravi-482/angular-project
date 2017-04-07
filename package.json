@@ -34,13 +34,10 @@
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.2",
     "phantomjs-prebuilt": "^2.1.14",
-    "require": "^2.4.20",
     "time-grunt": "^1.0.0"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "dependencies": {
-    "require": "^2.4.20"
-  }
+  "dependencies": {}
 }

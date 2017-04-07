@@ -9,14 +9,14 @@
  * Main module of the application.
  */
 var app = angular.module('angularProjectApp', [
-    'ngAnimate', 
+    /*'ngAnimate', 
     'ngAria', 
     'ngCookies', 
     'ngMessages', 
     'ngResource', 
-    'ngRoute', 
     'ngSanitize', 
-    'ngTouch',
+    'ngTouch',*/
+    'ngRoute',
     'angularProjectApp.header',
     'angularProjectApp.linkroutes'
 ]);
